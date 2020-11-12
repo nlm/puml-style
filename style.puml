@@ -1,0 +1,57 @@
+skinparam Shadowing false
+skinparam padding 8
+skinparam roundcorner 10
+skinparam linetype ortho
+
+skinparam arrow {
+  Color #FireBrick
+
+  Color<<green>> #SeaGreen
+  FontColor<<green>> #SeaGreen
+
+  Color<<orange>> #DarkOrange
+  FontColor<<orange>> #DarkOrange
+
+  Color<<blue>> #MidnightBlue
+  FontColor<<blue>> #MidnightBlue
+}
+
+skinparam actor {
+  BackgroundColor<<admin>> #bc4749
+  BackgroundColor<<user>> #a7c957
+}
+
+skinparam rectangle {
+  BackgroundColor #White
+}
+
+skinparam frame {
+  BackgroundColor #fdfdfd
+  'BackgroundColor<<scaling>> #White|#Blue
+  BorderColor<<scaling>> Blue
+
+}
+
+skinparam node {
+  BackgroundColor #LightYellow
+  BackgroundColor<<service>> #LightYellow
+  BackgroundColor<<server>> #e2ece9
+  BackgroundColor<<laptop>> #e2ece9
+  BackgroundColor<<application>> #dfe7fd
+}
+
+skinparam artifact {
+  BackgroundColor #eae4e9
+  BackgroundColor<<git_repo>> #fff1e6
+  BackgroundColor<<container_image>> #fff1e6
+  BackgroundColor<<python_package>> #fff1e6
+}
+
+skinparam database {
+  BackgroundColor #LightYellow
+}
+
+skinparam package {
+  BackgroundColor #LightYellow
+  BackgroundColor<<docker>> #e9edc9
+}
