@@ -1,7 +1,7 @@
 skinparam Shadowing false
 skinparam padding 8
 skinparam roundcorner 10
-skinparam linetype ortho
+'skinparam linetype ortho
 
 skinparam arrow {
   Color #FireBrick
@@ -27,9 +27,8 @@ skinparam rectangle {
 
 skinparam frame {
   BackgroundColor #fdfdfd
-  'BackgroundColor<<scaling>> #White|#Blue
-  BorderColor<<scaling>> Blue
-
+  BackgroundColor<<cluster>> #OldLace
+  BorderColor<<scaling>> #Black|#white
 }
 
 skinparam node {
