@@ -1,7 +1,9 @@
-skinparam Shadowing false
-skinparam padding 8
-skinparam roundcorner 10
-'skinparam linetype ortho
+skinparam {
+  shadowing false
+  padding 8
+  roundcorner 10
+  'linetype ortho
+}
 
 skinparam arrow {
   Color #FireBrick
@@ -14,6 +16,9 @@ skinparam arrow {
 
   Color<<blue>> #MidnightBlue
   FontColor<<blue>> #MidnightBlue
+
+  Color<<purple>> #Purple
+  FontColor<<blue>> #Purple
 }
 
 skinparam actor {
@@ -28,7 +33,8 @@ skinparam rectangle {
 skinparam frame {
   BackgroundColor #fdfdfd
   BackgroundColor<<cluster>> #OldLace
-  BorderColor<<scaling>> #Black|#white
+  BorderColor<<scaling>> #Black|#f9f9f9
+  Shadowing<<repeated>> true
 }
 
 skinparam node {
