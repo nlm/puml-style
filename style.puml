@@ -60,3 +60,5 @@ skinparam package {
   BackgroundColor #LightYellow
   BackgroundColor<<docker>> #e9edc9
 }
+
+footer generated on %date()
